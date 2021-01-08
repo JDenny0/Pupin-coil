@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ body {
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-x;
+  background-image: url("equations1.png");
+  background-size: 40%;
+  background-blend-mode: darken;
+  background-color: #d5d2d2;
+  font-family: 'Roboto', sans-serif;
+}
+.top {
+  margin: 0;
+  padding: 0;
+ 
+}
+.header {
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 20px;
+  font-size: 20px;
+
+}
+
+.aside {
+  float: left;
+  width: 20%;
+  height: 80%;
+  position: fixed;
+  
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(18, 28, 43);
+  
+}
+a:hover {
+  color: rgb(228, 101, 101);
+}
+ul {
+  position: fixed;
+  margin-left: 10px;
+  width: 10vw;
+  height: 15vh;
+  line-height: 1.6em;
+  list-style-type: none;
+  background-color: #d5d2d2;
+
+}
+.navbar {
+  padding-left: 5px;
+  margin-top: 2%;
+  font-size: 25px;
+  line-height: 45px;
+  text-decoration-style: none;
+  }
+
+section {
+  width: 80%;
+  box-sizing: border-box;
+  margin-left: 20%;
+  border-left: 1px solid black;
+}
+.picture {
+  box-sizing: border-box;
+  float: right;
+  margin-left: 20px;
+  border-left: 1px solid black;
+  padding: 10px 60px;
+  
+}
+.paragraf {
+  box-sizing: border-box;
+  padding: 10px 80px 80px 50px;
+  text-align: left;
+
+}
+p {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: normal;
+}
+.header1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+  font-size: 20px;
+ 
+}
+.header2 {
+  margin-top: 80px;
+  padding-top: 40px;
+  font-size: 20px;
+ 
+}
+.paragraf2 {
+  padding: 0px 90px 0px 90px;
+  
+
+} 
+.young {
+  
+  float: left;
+  border-right: 1px solid black;
+  padding: 0px 80px;
+  margin-right: 10px;
+  box-sizing: border-box;
+ 
+
+}
+.right-column {
+  box-sizing: border-box;
+  float: left;
+  padding: 5px;
+}
+
+.picture3 {
+  float: right;
+  border-left: 1px solid black;
+  padding: 30px 20px 60px 30px;
+  text-align: right;
+}
+.section1 {
+  padding: 0px 60px;
+  text-align: left;
+}
+table {
+  box-sizing: border-box;
+  display: table;
+  border-collapse: collapse ;
+  width: 80%;
+  margin-left: 100px;
+
+}
+th {
+  padding: 10px;
+  background-color: rgb(187, 182, 197);;
+}
+td {
+  padding: 12px;
+  background-color: rgb(222, 220, 237);
+}
+th, td {
+  border: 1px solid rgb(205, 204, 214);
+  
+}
+.header3 {
+  text-align: center;
+  font-size: 20px;
+ 
+}
+footer {
+  margin: 60px 10px 10px 20px;
+  padding-left: 40px;
+  color: rgb(48, 79, 80);
+}
+@media only screen and (max-width: 900px) {
+  .aside { 
+    float: right;
+    width: 100%;
+    top: 0%;
+    height: 80%;
+    position: fixed;
+  }
+  .aside1 {
+    position: absolute;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+
+    top: 0;
+  }
+ 
+  ul {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 10% 0 10%;
+  }
+  .section {
+      width: 100%;
+      box-sizing: border-box;
+      margin-left: 0;
+      border-left: none;
+  }
+  .navbar {
+    padding-left: none;
+    line-height: 1em ;
+    }
+    .paragraf2 {
+      padding: 15px;
+      margin-right: 15px;
+    }
+  
+}
+@media only screen and (max-width: 700px) {
+ .picture {
+   box-sizing: border-box;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-right: 0;
+ }
+ .paragraf {
+   padding: 15px;
+ }
+
+ table {
+   margin: 15px;
+ }
+
+
+ .young {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+  
+    float: left;
+    border-right: none;
+ }
+ .picture3 {
+   box-sizing: border-box;
+   width: 100%;
+   text-align: center;
+   padding-left: 20px;
+ }
+ .aside {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+}
+@media only screen and (max-width: 500px) {
+ .aside {
+   position: absolute;
+ }
+ ul {
+   line-height: normal;
+ }
+ .img-cu {
+   width: 250px;
+   height: 180px;
+ }
+ .img-mip {
+   width: 160px;
+   height: 225px;
+ }
+ .img-y {
+   width: 150px;
+   height: 150px;
+ }
+ .img-1916 {
+   width: 160px;
+   height: 240px;
+ }
+ .pupin-1916 {
+  
+   margin: 0;
+ }
+ .section1 {
+   padding-right: 0;
+ }
+ table {
+   margin: 0 15px 0 0;
+   font-size: 0.8em;
+   width: 80%;
+ }
+ tbody {
+   width: 350px;
+ }
+ .img-pp {
+   width: 210.5px;
+   height: 108px;
+ }
+ .img-1 {
+   width: 150px;
+   height: 197px;
+ }
+}
+@media only screen and (max-width: 350px) {
+  tbody {
+    width: 300px;
+  }
+  table {
+    font-size: 0.7em;
+  }
+}
